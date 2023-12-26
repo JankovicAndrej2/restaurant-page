@@ -63,7 +63,6 @@ body{
 }
 .options>*:hover{
     cursor: pointer;
-    text-decoration: underline;
 }
 .placeholder{
     padding-top: 50px;
@@ -87,6 +86,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.home{
+    text-decoration: underline;
 }
 
 
