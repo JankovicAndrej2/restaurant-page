@@ -18,6 +18,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'tomorrowregular';
+    src: url('../fonts/tomorrow-regular-webfont.woff2') format('woff2'),
+         url('../fonts/tomorrow-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body{
     width: 100vw;
@@ -42,7 +50,7 @@ body{
     padding-top: 40px;
 }
 
-.title,.options{
+.title,.options,.placeholder{
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -53,10 +61,33 @@ body{
     font-family: 'bebas_neueregular', sans-serif;
     font-size: 2rem;
 }
-.options:hover{
+.options>*:hover{
     cursor: pointer;
+    text-decoration: underline;
+}
+.placeholder{
+    padding-top: 50px;
+    gap: 60px;
+}
+.image-zeff{
+    border-radius: 40px;
+    border: 2px solid rgb(170, 150, 35);
 }
 
+.zeff-text::after{
+    content: "\a";
+    white-space: pre;
+}
+.zeff-text{
+    font-family: 'tomorrowregular', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.about-zeff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
