@@ -154,12 +154,13 @@ button:hover{
     display: flex;
     flex-direction: column;
     font-size: 1.25rem;
-    width: 250px;
+    width: 300px;
     
 }
 
 .adress-info>*, .phone-info>*, .time-info>*{
     margin-bottom: 5px;
+    font-family: 'bellotabold_italic', sans-serif;
 }
 .logo{
     margin-bottom: 40px;
